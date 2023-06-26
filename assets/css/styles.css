@@ -509,47 +509,47 @@ img {
 }
 
 .skills__html {
-  width: 90%;
+  width: 100%;
 }
 
 .skills__css {
-  width: 80%;
+  width: 100%;
 }
 
 .skills__js {
-  width: 60%;
+  width: 100%;
 }
 
 .skills__react {
-  width: 85%;
+  width: 100%;
 }
 
 .skills__php {
-  width: 80%;
+  width: 100%;
 }
 
 .skills__node {
-  width: 70%;
+  width: 100%;
 }
 
 .skills__firebase {
-  width: 90%;
+  width: 100%;
 }
 
 .skills__python {
-  width: 55%;
+  width: 100%;
 }
 
 .skills__figma {
-  width: 90%;
+  width: 100%;
 }
 
 .skills__sketch {
-  width: 85%;
+  width: 100%;
 }
 
 .skills__photoshop {
-  width: 85%;
+  width: 100%;
 }
 
 .skills__close .skills__list {
@@ -564,6 +564,13 @@ img {
 
 .skills__open .skills__arrow {
   transform: rotate(-180deg);
+}
+
+.skills__languages-and-tools {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+
+  margin-bottom: 2%;
 }
 
 /*==================== QUALIFICATION ====================*/
