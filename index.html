@@ -894,34 +894,46 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <form action="https://formsubmit.co/7a7691e7242ec7a629fe5790aa0dffae" class="contact__form grid" method="POST">
+						<!-- Honeypot -->
+						<input type="text" name="_honey" style="display: none;">
+
+						<!-- Disable Captcha -->
+						<input type="hidden" name="_captcha" value="false">
+
+						<input type="hidden" name="_next" value="https://www.dinhphu28.tech/contact-message-success.html">
+
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" name="name" class="contact__input">
                             </div>
 
                             <div class="contact__content">
                                 <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                                <input type="email" name="email" class="contact__input">
                             </div>
                         </div>
 
                         <div class="contact__content">
-                            <label for="" class="contact__label">Project</label>
-                            <input type="text" class="contact__input">
+                            <label for="" class="contact__label">Company</label>
+                            <input type="text" name="company" class="contact__input">
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea id="" cols="0" rows="7" name="message" class="contact__input"></textarea>
                         </div>
 
                         <div>
-                            <a href="#" class="button button--flex">
+                            <!--<a href="#" class="button button--flex">
                                 Send Message
                                 <i class="uil uil-message button__icon"></i>
-                            </a>
+							</a>-->
+							<button type="submit" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </button>
                         </div>
                     </form>
                 </div>
