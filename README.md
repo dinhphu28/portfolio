@@ -7,7 +7,7 @@
 - Includes a light and dark mode.
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
-- Using [FormSubmit](https://formsubmit.co) for Contact form Submitting then sending email.
+- Using [FormSubmit](https://formsubmit.co) for Contact form submitting then sending email.
 
 ### Thanks a googol to Bedimcode for tutorial
 
