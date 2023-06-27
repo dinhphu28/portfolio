@@ -127,6 +127,11 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
     }
 })
 
+/*==================== CONTACT ====================*/
+function submitFormContact() {
+	document.getElementById("contact__form-send-msg").submit();
+}
+
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 

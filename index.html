@@ -894,7 +894,7 @@
                         </div>
                     </div>
 
-                    <form action="https://formsubmit.co/7a7691e7242ec7a629fe5790aa0dffae" class="contact__form grid" method="POST">
+                    <form id="contact__form-send-msg" action="https://formsubmit.co/7a7691e7242ec7a629fe5790aa0dffae" class="contact__form grid" method="POST">
 						<!-- Honeypot -->
 						<input type="text" name="_honey" style="display: none;">
 
@@ -930,10 +930,10 @@
                                 Send Message
                                 <i class="uil uil-message button__icon"></i>
 							</a>-->
-							<button type="submit" class="button button--flex">
+							<a onclick="submitFormContact()" type="submit" class="button button--flex">
                                 Send Message
                                 <i class="uil uil-message button__icon"></i>
-                            </button>
+                            </a>
                         </div>
                     </form>
                 </div>
